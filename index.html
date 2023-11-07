@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -9,22 +9,26 @@
 </head>
 
 <body>
-    <main>
-        <h1>Verificador de Idade</h1>
+    <h1>Verificador de Idade</h1>
+    <main>        
         <div id="card">
             <label for="idade">Ano de Nascimento:</label>
-            <input type="text" name="idade" id="age">
+            <input type="text" name="idade" id="txtano">
         </div>
-        <div>
-            <label for="idade">Sexo:</label>
-            <input type="radio">Masculino
-            <input type="radio">Feminino
-
+        <div id="sexo">
+            <p>Sexo:</p>
+            <input type="radio" name="sexo" value="mas">Masculino
+            <input type="radio" name="sexo" value="fem">Feminino
         </div>
+        <button onclick="check()">Verificar</button>
+        <div id="result">
+            Resultado sairá aqui
+        </div>
+        <img id="imagem">
 
     </main>
 
-    <script></script>
+    <script src="JS/index.js"></script>
 </body>
 
 </html>

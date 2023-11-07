@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 119, 255, 0.678);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main{
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+
+img{
+    margin-top: 25px;
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+}
